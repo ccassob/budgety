@@ -24,7 +24,7 @@ body {
 }
 
 .right { float: right; }
-.red { color: #FF5049 !important; }
+.red { color: rgb(68, 0, 255) !important; }
 .red-focus:focus { border: 1px solid #FF5049 !important; }
 
 /**********************************************
@@ -75,7 +75,7 @@ body {
 }
 
 .budget__expenses {
-    background-color: #FF5049;
+    background-color: rgb(255, 191, 73);
 }
 
 .budget__income--text,
