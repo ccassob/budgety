@@ -15,7 +15,7 @@
 }
 
 body {
-    color: #555;
+    color: rgb(75, 13, 219);
     font-family: Open Sans;
     font-size: 16px;
     position: relative;
@@ -67,22 +67,32 @@ body {
 .budget__expenses {
     padding: 12px;
     text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px black; 
+
+}
+
+.budget__income:hover,
+.budget__expenses:hover {
+    box-shadow: 1px 1px 20px whitesmoke; 
+    border: 1px rgba(255, 255, 255, 0.8) solid;
 }
 
 .budget__income {
     margin-bottom: 10px;
-    background-color: #28B9B5;
+    background-color: rgb(33, 4, 100);
 }
 
 .budget__expenses {
-    background-color: rgb(255, 191, 73);
+
+    background-color: rgb(104, 6, 11);
 }
 
 .budget__income--text,
 .budget__expenses--text {
     float: left;
     font-size: 13px;
-    color: #444;
+    color: white;
     margin-top: 2px;
 }
 
@@ -199,8 +209,8 @@ h2 {
     margin-bottom: 15px;
 }
 
-.icome__title { color: #28B9B5; }
-.expenses__title { color: #FF5049; }
+.icome__title { color: rgb(64, 8, 194);; }
+.expenses__title { color: rgb(216, 13, 23); }
 
 .item {
     padding: 13px;
