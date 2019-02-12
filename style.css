@@ -24,7 +24,7 @@ body {
 }
 
 .right { float: right; }
-.red { color: rgb(68, 0, 255) !important; }
+.red { color: red !important; }
 .red-focus:focus { border: 1px solid #FF5049 !important; }
 
 /**********************************************
